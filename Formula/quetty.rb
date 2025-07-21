@@ -9,8 +9,7 @@ class Quetty < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release"
-    bin.install "target/release/quetty"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
