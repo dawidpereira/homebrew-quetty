@@ -1,8 +1,8 @@
 class Quetty < Formula
   desc "Terminal-based Azure Service Bus queue manager"
   homepage "https://github.com/dawidpereira/quetty"
-  url "https://github.com/dawidpereira/quetty/archive/refs/tags/v0.1.0-alpha.1.tar.gz"
-  sha256 "c041d4dd9404a41e1d5b3f289d393bda454ce592604674839bfcff3eafaa5c2d"
+  url "https://github.com/dawidpereira/quetty/archive/refs/tags/v0.1.9.tar.gz"
+  sha256 "129c9980efa09d831c5ae340b7c8cebbb0b891af87bc6718cd023259070f3a08"
   license "MIT"
   head "https://github.com/dawidpereira/quetty.git", branch: "main"
 
